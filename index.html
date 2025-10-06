@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Revista Virtual — Machado de Assis</title>
+<link rel="stylesheet" href="/styles.css">
+<style>
+  /* Exemplo simples para layout das obras lado a lado */
+  .columns {
+    display: flex;
+    gap: 20px; /* espaço entre as obras */
+    flex-wrap: wrap; /* para quebrar linha em telas pequenas */
+  }
+  .columns section {
+    flex: 1 1 200px; /* largura mínima e flexível */
+    box-sizing: border-box;
+  }
+  /* Para separar visualmente entre seções */
+  hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+    width: 100%;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Revista Machado de Assis</h1>
+  <nav>
+    <a href="#inicio">Início</a>
+    <a href="#contexto">Contexto</a>
+    <a href="#obras">Obras</a>
+    <a href="#timeline">Linha do Tempo</a>
+  </nav>
+</header>
+
+<main>
+  <section id="inicio">
+    <h2>Bem-vindo à Revista Virtual</h2>
+  </section>
+
+  <section id="contexto" class="columns">
+    <h2>Contexto Histórico e Literário</h2>
+    <img src="/images/machado.jfif" alt="Retrato de Machado de Assis" width="280" height="350">
+    <h3>O Realismo no Brasil</h3>
+    <p>Os contos de Machado de Assis foram escritos numa época de muitas mudanças no Brasil, entre o final do século XIX e o começo do século XX. O país estava saindo da escravidão, a monarquia tinha acabado e a república estava começando. A sociedade estava mudando, mas as injustiças e a desigualdade continuavam, só que de formas diferentes. Machado usava seus contos pra criticar tudo isso, mostrando a hipocrisia das pessoas ricas, o racismo escondido e os jogos de interesse. Ele escrevia de um jeito irônico e inteligente, fazendo a gente pensar sobre como as pessoas realmente são por dentro, por trás das aparências.</p>
+  </section>
+
+  <section id="obras">
+    <h2>Obras de Machado de Assis</h2>
+
+    <div class="columns">
+      <section>
+        <h3>Missa do Galo</h3>
+        <img src="/images/missadogalo.jpg" alt="Missa do Galo" width="200" height="300">
+        <h4>Enredo</h4>
+        <p>Uma conversa entre um jovem narrador e Conceição, esposa do conselheiro, na noite de Natal, refletida pela memória do narrador adulto.</p>
+
+        <h4>Personagens</h4>
+        <ul>
+          <li>O narrador jovem</li>
+          <li>Conceição</li>
+        </ul>
+
+        <h4>Temas e Estilo</h4>
+        <p>Memória, desejo e religiosidade. Estilo com sutileza e ironia característica de Machado de Assis.</p>
+      </section>
+
+      <hr>
+
+      <section>
+        <h3>Pai contra Mãe</h3>
+        <img src="/images/paicontramae.webp" alt="Pai contra Mãe" width="200" height="300">
+        <h4>Enredo</h4>
+        <p>Cândido Neves caça escravizados fugitivos e captura uma escrava grávida em troca de recompensa, mostrando a crueldade da época.</p>
+
+        <h4>Personagens</h4>
+        <ul>
+          <li>Cândido Neves</li>
+          <li>Clara, sua esposa</li>
+          <li>A escrava grávida</li>
+        </ul>
+
+        <h4>Temas e Estilo</h4>
+        <p>Crítica à escravidão, luta pela sobrevivência e desigualdade social. Ironia machadiana presente em toda narrativa.</p>
+      </section>
+
+      <hr>
+
+      <section>
+        <h3>A Igreja do Diabo</h3>
+        <img src="/images/igrejadodiabo.jpg" alt="A Igreja do Diabo" width="200" height="300">
+        <h4>Enredo</h4>
+        <p>O Diabo funda sua própria igreja, mas percebe que a natureza humana é contraditória: mesmo praticando o mal, as pessoas mantêm virtudes.</p>
+
+        <h4>Personagens</h4>
+        <ul>
+          <li>O Diabo</li>
+          <li>Deus</li>
+          <li>A humanidade</li>
+        </ul>
+
+        <h4>Temas e Estilo</h4>
+        <p>Ironia, reflexão filosófica e crítica social sobre moral, livre-arbítrio e contradição humana.</p>
+      </section>
+    </div>
+  </section>
+
+  <section id="timeline">
+    <h2>Linha do Tempo – Contexto Histórico dos Contos</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <h4>1839</h4>
+        <p>Nascimento de Machado de Assis no Rio.</p>
+      </div>
+      <div class="timeline-item">
+        <h4>1850</h4>
+        <p>Lei que proíbe o tráfico de escravizados.</p>
+      </div>
+      <div class="timeline-item">
+        <h4>1870</h4>
+        <p>Realismo começa a influenciar a literatura brasileira.</p>
+      </div>
+      <div class="timeline-item">
+        <h4>1881</h4>
+        <p>Lançamento de <em>Brás Cubas</em>; marco do Realismo.</p>
+      </div>
+      <div class="timeline-item">
+        <h4>1884</h4>
+        <p>Machado publica o conto <em>A Igreja do Diabo</em>.</p>
+      </div>
+      <div class="timeline-item">
+        <h4>1888</h4>
+        <p>Escravidão é abolida no Brasil.</p>
+      </div>
+      <div class="timeline-item">
+        <h4>1889</h4>
+        <p>Fim da monarquia. Início da República.</p>
+      </div>
+      <div class="timeline-item">
+        <h4>1890</h4>
+        <p>Rio passa por reformas urbanas e cresce a desigualdade.</p>
+      </div>
+      <div class="timeline-item">
+        <h4>1906</h4>
+        <p>Machado publica <em>Pai contra Mãe</em>.</p>
+      </div>
+      <div class="timeline-item">
+        <h4>1908</h4>
+        <p>Morte de Machado de Assis.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+</body>
+</html>

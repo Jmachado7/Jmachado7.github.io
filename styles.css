@@ -1,0 +1,118 @@
+body {
+    font-family: 'Georgia', serif;
+    background: #f5f1e9; /* papel antigo */
+    color: #2b2b2b;
+    margin: 0;
+    scroll-behavior: smooth;
+  }
+
+  header {
+    background: #3e3a36;
+    color: #f5f1e9;
+    padding: 25px;
+    text-align: center;
+    border-bottom: 4px solid #a1866f;
+  }
+
+  header h1 {
+    font-size: 3em;
+    letter-spacing: 2px;
+  }
+
+  nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #f5f1e9;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+  }
+
+  main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+  }
+
+  h2 {
+    color: #3e3a36;
+    border-bottom: 2px solid #a1866f;
+    padding-bottom: 5px;
+    margin-top: 40px;
+    font-size: 2em;
+  }
+
+  h3 {
+    color: #5a4b3c;
+    margin-top: 20px;
+  }
+
+  h4 {
+    color: #5a4b3c;
+    margin-top: 10px;
+  }
+
+  .btn {
+    display: inline-block;
+    margin: 8px 8px 20px 0;
+    padding: 8px 12px;
+    border: 1px solid #a1866f;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #3e3a36;
+    background: #eae0d5;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+  }
+
+  img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #a1866f;
+  }
+
+  section {
+    background: #fdf7ee;
+    border: 1px solid #ddd2c2;
+    padding: 20px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+  }
+
+  .columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+/* Cada obra (section dentro de #obras) deve ter metade da largura */
+#obras > section {
+  flex: 1 1 calc(50% - 20px); /* duas colunas com espaço entre */
+  box-sizing: border-box;
+}
+
+  hr {
+    border: 1px solid #a1866f;
+    margin: 40px 0;
+  }
+
+  .timeline {
+    background: #fdf7ee;
+    padding: 15px;
+    border-left: 5px solid #3e3a36;
+    margin: 20px 0;
+  }
+
+  .timeline-item {
+    margin-bottom: 15px;
+  }
+
+  .timeline-item h4 {
+    margin: 0;
+    color: #3e3a36;
+  }
+
+  .timeline-item p {
+    margin: 5px 0 0 0;
+  }
+
